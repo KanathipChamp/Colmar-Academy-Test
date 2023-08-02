@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.holder-logo{
+    font-size: 20px;
+}
+.logo-name{
+    padding: 32px 0px;
+}
+.logo-name-1{
+    font-weight: bold;
+    color: rgb(38, 38, 38);
+}
+.logo-name-2{
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 64px;
+    padding: 0 24px;    
+}
+
+.holder-logo {
+    display: flex;
+}
+
+.logo1{
+    text-transform: uppercase;
+   
+}
+
+#desktop a{
+    margin-left: 16px;
+}
+
+#learn{
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: rgb(195, 195, 195);
+    color: rgb(79, 79, 79);
+    padding: 32px 24px;
+ 
+   
+}
+#learn{
+    width: 100%;
+}
+.holder-img-header{
+    width: 60%;
+}
+.img-header{
+    width: 100%;
+    display: flex;
+} 
+.header-learn {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 40%;
+    margin: 0 24px; 
+
+}
+.header-learn h1{
+    font-size: 40px;
+}
+.header-learn button{
+   background-color:rgb(74, 74, 74);
+   width: 100%;
+   font-size: 1rem;
+   padding: 8px 0;
+   color: white;
+   cursor: pointer;
+   border-radius: 2px;
+}
+.header-learn button:hover{
+    background-color: #6f6f6f;
+}
+
+.practice{
+    box-sizing: border-box;
+    width: 60%;
+
+}
+#holder-practice{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.img-practice{
+    display: flex;
+    width: 100%;
+    padding-right: 24px ;
+}
+
+.header-practice-box{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.header-practice{
+    font-size: 40px;
+}
+.practice-column{   
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; 
+    width: 40%;     
+}
+.practice-column-2{
+    outline: 0.5px solid #aeaeae;
+    display: flex;
+}
+.practice-column-2 img{
+    width: 35%;
+    height: auto; 
+    padding: 16px 16px;
+}
+.practice-column-2:hover{
+ background-color: rgb(195, 195, 195);
+}
+.practice-column-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+.practice-column-2-content p{
+    margin: 8px 0px;
+}
+.p {
+ margin: 8px 0px;
+}
+
+/* section start learning below */
+#startlearning{
+    padding-left: 72px;
+    padding-right: 72px;
+    border: 0;
+    margin: 0;
+    background-color: rgb(195, 195, 195);
+}
+.header-startlearning{
+    text-align: center;
+    padding: 32px 0px;
+    font-size: 30px;
+}
+.card-container{
+    margin-bottom: 0;
+}
+.card-row{
+    display: flex;
+}
+.card{
+    background-color: white;
+    margin-right: 32px;
+    margin-bottom: 32px;  
+    cursor: pointer;
+    border-radius: 2px;   
+}
+.card:hover{
+    background-color: #dedede;
+}
+.card img{
+    height: auto;
+    width: 100%;
+}
+.card-content{
+    margin-top:16px ;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+.card-content h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* section thesis exhibit below */
+#thesis{
+    background-color: #fff;
+    width: 100%;
+}
+.header-thesis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.thesis-article{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.thesis-article1{
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.thesis-article1 video{
+    width: 100%;
+}
+.thesis-article2{
+    width: 40%;
+}
+.thesis-article2-box{
+    display: flex;
+}
+.thesis-article2-box img{
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;   
+}
+.thesis-article2-box-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+
+/* footer below */
+#footer-copyrights{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+/* mobil */
+@media screen and (max-width: 768px) {
+    #learn {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #holder-practice {
+        display: flex;
+        flex-direction: column;
+    }
+}
